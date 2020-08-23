@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Drum kit</title>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <link
+      rel="icon"
+      href="https://cdn3.iconfinder.com/data/icons/musical-instruments-18/100/instruments_drums-512.png"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div data-key="65" class="key">
+        <kbd>a</kbd><span class="sound">clap</span>
+      </div>
+      <div data-key="83" class="key">
+        <kbd>s</kbd> <span class="sound">hhat</span>
+      </div>
+      <div data-key="68" class="key">
+        <kbd>d</kbd> <span class="sound">kick</span>
+      </div>
+      <div data-key="70" class="key">
+        <kbd>f</kbd> <span class="sound">openhat</span>
+      </div>
+      <div data-key="71" class="key">
+        <kbd>g</kbd> <span class="sound">boom</span>
+      </div>
+      <div data-key="72" class="key">
+        <kbd>h</kbd> <span class="sound">ride</span>
+      </div>
+      <div data-key="74" class="key">
+        <kbd>j</kbd> <span class="sound">snare</span>
+      </div>
+      <div data-key="75" class="key">
+        <kbd>k</kbd> <span class="sound">tom</span>
+      </div>
+      <div data-key="76" class="key">
+        <kbd>l</kbd> <span class="sound">tink</span>
+      </div>
+
+      <audio data-key="65" src="./sounds/clap.wav"></audio>
+      <audio data-key="83" src="./sounds/hihat.wav"></audio>
+      <audio data-key="68" src="./sounds/kick.wav"></audio>
+      <audio data-key="70" src="./sounds/openhat.wav"></audio>
+      <audio data-key="71" src="./sounds/boom.wav"></audio>
+      <audio data-key="72" src="./sounds/ride.wav"></audio>
+      <audio data-key="74" src="./sounds/snare.wav"></audio>
+      <audio data-key="75" src="./sounds/tom.wav"></audio>
+      <audio data-key="76" src="./sounds/tink.wav"></audio>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
